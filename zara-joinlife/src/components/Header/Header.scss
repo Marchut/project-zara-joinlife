@@ -1,0 +1,33 @@
+// src/components/Header/Header.scss
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: auto;
+  margin: 10px;
+  align-items:flex-start;
+  padding: 10px 20px;
+  // background-color: white;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-icon .line {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 2px 0;
+}
+
+.logo-and-navbar {
+  height: 100px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-right: 250px;
+}

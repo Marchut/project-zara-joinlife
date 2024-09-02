@@ -1,0 +1,35 @@
+/* src/components/Timeline/TimelineItem.scss */
+.timeline-item {
+  flex: 0 0 300px;
+  /* Ajustar el tamaño de cada elemento según sea necesario */
+
+  border-radius: 5px;
+
+  .timeline-item-header {
+    margin-bottom: 10px;
+    height: 100px;
+
+    h4 {
+      margin: 0;
+      font-weight: normal;
+      padding-right: 20px;
+
+      font-size: 18px;
+      font-weight: 300;
+    }
+
+  }
+
+  .timeline-line {
+    height: 10px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+  }
+
+  p {
+    margin: 0;
+    padding-right: 50px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
